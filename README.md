@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Jubin and I'm a Full Stack Developer, from Your Guwahati, Assam</h2>
+<h2 align="left">Hi 👋! My name is Jubin and I'm a Full Stack Developer, from Guwahati, Assam</h2>
 
 ### About Me
 I am passionate about coding, building web and mobile applications, and exploring new technologies.  
