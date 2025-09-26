@@ -43,5 +43,7 @@ I am passionate about coding, building web and mobile applications, and explorin
 ---
 
 <br clear="both"/>
+<img src="https://raw.githubusercontent.com/jubindas/jubindas/output/snake.svg" alt="Snake animation" />
+
 
 
