@@ -1,1 +1,29 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1️⃣ Checkout your repo
+      - uses: actions/checkout@v3
+
+      # 2️⃣ Generate the snake SVG/GIF
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: 'jubindas'
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      # 3️⃣ Commit the generated files back to your repo
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update contribution snake"
+          branch: main
 
