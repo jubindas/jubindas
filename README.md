@@ -36,6 +36,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="30" alt="Postman logo" />
+
 </div>
 
 ###
@@ -59,6 +62,5 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/jubindas/jubindas/output/snake.svg" alt="Snake animation" />
 
 ###
